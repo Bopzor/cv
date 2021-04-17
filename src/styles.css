@@ -1,0 +1,184 @@
+html {
+  font-size: 16px;
+}
+
+a {
+  color: #dddddd;
+}
+
+a:hover {
+  background-color: #ffffff4B;
+  transition: 1.5s;
+}
+
+a.a-no-underline {
+  text-decoration: none;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  font-family: Lato;
+}
+
+.aside-left {
+  background-color: #311170;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #dddddd;
+}
+
+.aside-left section {
+  padding: 16px 12px;
+}
+
+.aside-left h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #e8963e;
+}
+
+.aside-categoy-header {
+  background-color: #220b51;
+  padding: 12px;
+}
+
+h4.aside-categoy-header {
+  font-size: 1.2rem;
+}
+
+.aside-left section.skills p {
+  line-height: 1.6;
+}
+
+.aside-left section article {
+  padding: 8px 0;
+}
+
+.aside-left section article h6 {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.aside-left section p {
+  line-height: 1.4;
+}
+
+.aside-left .skills {
+  text-align: justify;
+}
+
+.aside-left .skills span {
+  font-size: 0.875rem;
+}
+
+.aside-right {
+  flex: 2;
+}
+
+.aside-right > section {
+  padding: 0px 16px 8px 12px;
+}
+
+.experiences:first-child {
+  margin-top: 12px;
+}
+
+h4.experiences-header, h4.formation-header, h4.hobbies-header {
+  padding: 6px 0px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+h4.experiences-header {
+  border-top: 0.5px solid #3111704B;
+  border-bottom: 0.5px solid #3111704B;
+  color: #311170;
+}
+
+.experiences article, .formation article {
+  display: flex;
+}
+
+.experiences article .date {
+  flex: 1;
+  padding-top: 12px;
+  font-size: 0.75rem;
+}
+
+.experiences article .content, .formation article .content {
+  flex: 6;
+}
+
+.experiences article .content h5, .formation article .content h5 {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.experiences  p.missision-description {
+  font-size: 0.75rem;
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.1;
+  margin: 4px 0;
+}
+
+.experiences ul {
+  list-style-type: disc;
+  font-size: 0.75rem;
+  padding-left: 16px;
+}
+
+.experiences li {
+  line-height: 1.2;
+}
+
+.experiences section article {
+  margin-bottom: 12px;
+}
+
+.experiences .technos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.75rem;
+}
+
+h4.formation-header, h4.hobbies-header {
+  color: #e57e10;
+  border-top: 0.5px solid #e57e104B;
+  border-bottom: 0.5px solid #e57e104B;
+}
+
+.formation article {
+  padding-bottom: 8px;
+}
+
+.formation article .date {
+  flex: 1;
+  font-size: 0.75rem;
+}
+
+.formation .location {
+  flex: 1;
+  font-size: 0.75rem;
+}
+
+.formation .location span {
+  font-size: 0.6rem;
+  font-style: italic;
+  padding-top: 4px;
+}
+
+.hobbies article {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 0.875rem;
+}
+
+.hobbies strong {
+  font-weight: 700;
+}

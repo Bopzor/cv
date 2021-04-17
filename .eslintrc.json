@@ -1,0 +1,51 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "import",
+    "simple-import-sort"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "rules": {
+    "sort-imports": "off",
+    "import/order": "off",
+    "simple-import-sort/sort": [
+      "error",
+      {
+        "groups": [
+          [
+            "^react$",
+            "^react-dom$"
+          ],
+          ["^@?\\w"],
+          ["^src"],
+          ["^\\.\\."],
+          ["^\\."],
+          ["^.+\\.s?css$"]
+        ]
+      }
+    ],
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off"
+  }
+}
