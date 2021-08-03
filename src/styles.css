@@ -80,22 +80,17 @@ h4.aside-categoy-header {
 }
 
 .aside-right > section {
-  padding: 0px 16px 8px 12px;
-}
-
-.experiences:first-child {
-  margin-top: 12px;
+  padding: 0px 16px 0 12px;
 }
 
 h4.experiences-header, h4.formation-header, h4.hobbies-header {
   padding: 6px 0px;
   margin-bottom: 12px;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h4.experiences-header {
-  border-top: 0.5px solid #3111704B;
   border-bottom: 0.5px solid #3111704B;
   color: #311170;
 }
@@ -117,6 +112,11 @@ h4.experiences-header {
 .experiences article .content h5, .formation article .content h5 {
   font-weight: 700;
   margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.experiences article .content h6, .formation article .content h6 {
+  font-size: 0.875rem;
 }
 
 .experiences  p.missision-description {
@@ -138,7 +138,7 @@ h4.experiences-header {
 }
 
 .experiences section article {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 .experiences .technos {
@@ -149,12 +149,11 @@ h4.experiences-header {
 
 h4.formation-header, h4.hobbies-header {
   color: #e57e10;
-  border-top: 0.5px solid #e57e104B;
   border-bottom: 0.5px solid #e57e104B;
 }
 
 .formation article {
-  padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 
 .formation article .date {
